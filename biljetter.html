@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biljetter</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://use.typekit.net/koy2ujo.css">
   <link rel="stylesheet" href="https://use.typekit.net/vry1kwe.css">
-  <link rel="stylesheet" href="https://use.typekit.net/iat5yno.css">
+  <link rel="stylesheet" href="https://use.typekit.net/evh3omg.css">
+  <link rel="stylesheet" href="https://use.typekit.net/xqp7iqv.css">
   <script src="script.js"></script>
 </head>
 <body>
@@ -21,13 +21,18 @@
   <nav>
     <ul>
       <li><a href="index.html">Tributary</a></li>
-      <li><a href="Om.html">Om</a></li>
+      <li><a href="Om.html">Om oss</a></li>
       <li><a href="biljetter.html">Biljetter</a></li>
     </ul>
   </nav>
   </div>
 
   <main>
+
+    <p>Din e-post:</p>
+    <input type="email" id="email" />
+
+
     <p>Välj antal biljetter:</p>
     <select id="ticketQuantity">
       <option value="1">1</option>
@@ -35,13 +40,10 @@
       <option value="3">3</option>
     </select>
 
-
     <p>Totalt pris: Kr <span id="totalPrice">0</span></p>
 
     <button onclick="calculateTotal()">Beräkna pris</button>
     <button onclick="purchaseTickets()">Köp Biljetter</button>
 
-    <p>Din e-post:</p>
-    <input type="email" id="email" />
 
   </main>
