@@ -8,7 +8,6 @@ function purchaseTickets() {
   var quantity = document.getElementById("ticketQuantity").value;
   var email = document.getElementById("email").value;
 
-  // Här valideras mailen
   if (!isValidEmail(email)) {
       alert("Please enter a valid email address.");
       return;
@@ -24,3 +23,5 @@ function isValidEmail(email) {
   var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
+
+/* För att skapa detta scriptet använde vi oss av våran kunskap + Chat GPT */
