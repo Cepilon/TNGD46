@@ -85,7 +85,7 @@ body {
     border-radius: 10px;
     font-family:'Times New Roman', Times, serif;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -133,7 +133,7 @@ body {
     margin-top: 20px;
     font-family:'Times New Roman', Times, serif;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
   }
 /* Styling för team member bilderna och loggan */
 
@@ -148,7 +148,7 @@ body {
   margin: 20px;
   font-family:'Times New Roman', Times, serif;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 
   .team-member {
@@ -237,4 +237,5 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
   }
+
 
